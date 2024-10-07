@@ -58,4 +58,3 @@ let urunler = [
 ]
 
 console.log(urunler);
-
