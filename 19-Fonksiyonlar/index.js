@@ -19,23 +19,40 @@
 // sayiToplami(20, 30)
 
 
-//! Gelişmiş Toplama Fonksiyonu
+// //! Gelişmiş Toplama Fonksiyonu
 
-let toplam = -280;
+// let toplam = -280;
 
-function sayiToplami(...sayilar) {
+// function sayiToplami(...sayilar) {
 
-    for (let sayi of sayilar) {
-        toplam += sayi;
+//     for (let sayi of sayilar) {
+//         toplam += sayi;
 
-        // console.log(sayi);
+// console.log(sayi);
 
-    }
+//     }
 
+// }
+
+// sayiToplami(10, 20, 30, 40, 50, 60, 70,80);
+// console.log(toplam);
+
+
+//! Yaş Hesaplama
+
+function yasHesapla(dogumYili) {
+    return new Date().getFullYear() - dogumYili
 }
 
-sayiToplami(10, 20, 30, 40, 50, 60, 70,80);
-console.log(toplam);
+const hesapla = yasHesapla(1990);
+
+console.log(hesapla);
 
 
 
+
+
+// yasHesapla(1990)
+// yasHesapla(2000)
+// yasHesapla(2008)
+// yas
