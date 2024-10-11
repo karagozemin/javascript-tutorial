@@ -46,8 +46,9 @@ function yasHesapla(dogumYili) {
 
 const hesapla = yasHesapla(1990);
 
-console.log(hesapla);
 
+
+console.log(hesapla);
 
 
 
